@@ -1,10 +1,14 @@
 <script setup>
-
+import LayoutHeader from "@/views/layout/components/layout-header.vue";
+import LayoutNav from "@/views/layout/components/layout-nav.vue";
+import LayoutFooter from "@/views/layout/components/layout-footer.vue";
 </script>
 
 <template>
-  <h1>首页</h1>
+  <layout-header />
+  <layout-nav />
   <router-view />
+  <layout-footer />
 </template>
 
 <style scoped lang="scss">
