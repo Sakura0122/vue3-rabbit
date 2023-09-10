@@ -1,5 +1,9 @@
 <script setup>
+import http from "@/utils/http";
 
+http.get('home/category/head').then(res => {
+  console.log(res)
+})
 </script>
 
 <template>
