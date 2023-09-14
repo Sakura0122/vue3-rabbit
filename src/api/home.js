@@ -6,7 +6,7 @@ import http from "@/utils/http";
  */
 export const getBannerAPI = () => {
   return http({
-    url:'home/banner'
+    url: 'home/banner'
   })
 }
 
@@ -16,6 +16,16 @@ export const getBannerAPI = () => {
  */
 export const getNewAPI = () => {
   return http({
-    url:'/home/new'
+    url: '/home/new'
+  })
+}
+
+/**
+ * 获取人气推荐
+ * @return {*}
+ */
+export const getHotAPI = () => {
+  return http({
+    url: 'home/hot'
   })
 }
