@@ -19,7 +19,3 @@ defineOptions({
   <home-hot />
   <home-product />
 </template>
-
-<style scoped lang="scss">
-
-</style>
