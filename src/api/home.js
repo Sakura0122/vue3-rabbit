@@ -29,3 +29,13 @@ export const getHotAPI = () => {
     url: 'home/hot'
   })
 }
+
+/**
+ * 获取所有商品模块
+ * @return {*}
+ */
+export const getGoodsAPI = () => {
+  return http({
+    url: '/home/goods'
+  })
+}
